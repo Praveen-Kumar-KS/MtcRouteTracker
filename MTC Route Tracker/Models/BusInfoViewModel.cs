@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MTC_Route_Tracker.Models
 {
-    public class BusInfoModel
+    public class BusInfoViewModel
     {
         public int Id { get; set; }
         public bool BusSearch { get; set; }
