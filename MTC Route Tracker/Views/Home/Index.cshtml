@@ -1,0 +1,74 @@
+﻿@model BusInfoModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link href="~/css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card m-t-20">
+        <div class="row">
+            <div class="col-xl-12 col-lg-6 col-md-8 col-sm-12 col-12"><h6 class="card-header bold">Search Process</h6></div>
+        </div>
+        <div class="card-body p-t-0 bookcard">
+            <div class="row" style="margin: 0px 265px;">
+                <div class="col-xl-4 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
+                    <div class="txt2 "></div>
+                    <label class="container">
+                        <input type="radio" checked="checked" name="radio">
+                        Bus Search
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="col-xl-2 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
+                    <label>Or</label>
+                </div>
+                <div class="col-xl-4 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
+                    <div class="txt2 "></div>
+                    <label class="container">
+                        <input type="radio" name="radio">
+                        Route Search
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <br />
+            <div class="search-container" style="margin: 0px 350px;">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20" style="margin: 0px 177px;">
+                    <div class="search-container">
+                        <input type="text" placeholder="From.." name="search">
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
+                    <img class="directionlogo" src="~/Logos/icons8-direction-64.png">
+                </div>
+                <div class="col-xl-2 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20" style="margin: 0px -12px;">
+                    <div class="search-container">
+                        <input type="text" placeholder="To.." name="search">
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20" style="margin: 0px 45px;">
+                    <div class="search-container">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card m-t-20">
+        <div class="row">
+            <div class="col-xl-12 col-lg-6 col-md-8 col-sm-12 col-12"><h6 class="card-header bold">Bus Routes</h6></div>
+        </div>
+        <div class="card-body p-t-0">
+
+        </div>
+
+    </div>
+</div>

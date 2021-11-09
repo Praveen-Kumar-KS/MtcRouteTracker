@@ -1,0 +1,36 @@
+﻿.logo {
+    width: 290px;
+    height: 62px;
+    margin: 0px 12px;
+}
+.title1 {
+    font-weight: bold;
+    margin: 10px -44px;
+}
+.menucolor{
+    color:rgb(252 47 52 / 0.91);
+}
+
+.titlebooking {
+    margin: 9px 73px;
+    font-weight: bold;
+}
+.titlehelp {
+    font-weight: bold;
+    margin: 10px -30px;
+}
+.Account {
+    font-weight: bold;
+    margin: 9px 73px;
+}
+.bodycolor{
+    background-color:rgb(252 47 52 / 0.91);
+}
+.bookcard{
+    background-color:rgb(252 47 52 / 0.91);
+}
+.directionlogo {
+    height: 35px;
+    width: 35px;
+    margin: -2px -20px;
+}
