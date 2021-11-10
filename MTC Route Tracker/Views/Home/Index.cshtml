@@ -22,7 +22,7 @@
                 <div class="col-xl-2 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
                     <label>Or</label>
                 </div>
-                <div class="col-xl-4 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
+                <div class="col-xl-5 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
                     <div class="txt2 "></div>
                     <label class="container">
                         <input type="radio" name="radio">
@@ -32,28 +32,35 @@
                 </div>
             </div>
             <br />
-            <div class="search-container" style="margin: 0px 350px;">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+            <div class="search-container">
+                <div class="mdl-selectfield m-b-10" style="margin: 0px 350px;">
+                    <i class="dropdown1 mdi mdi-menu-down"></i>
+                    <select class="selectpicker form-control" data-live-search="true" id="Origin" placeholder="OriginCity or IATA" style="margin: 0px -41px;">
+                        <option value="">OriginCity or IATA</option>
+                    </select>
+                </div>
             </div>
             <br />
             <div class="row">
-                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20" style="margin: 0px 177px;">
-                    <div class="search-container">
-                        <input type="text" placeholder="From.." name="search">
+                <div class="col-xl-5 col-lg-2 col-md-2 col-sm-12 col-12">
+                    <div class="mdl-selectfield m-b-10" >
+                        <i class="dropdown1 mdi mdi-menu-down"></i>
+                        <select class="selectpicker form-control" data-live-search="true" id="Origin" placeholder="From">
+                            <option value="">Origin Place</option>
+                        </select>
                     </div>
                 </div>
+
                 <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20">
                     <img class="directionlogo" src="~/Logos/icons8-direction-64.png">
                 </div>
-                <div class="col-xl-2 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20" style="margin: 0px -12px;">
-                    <div class="search-container">
-                        <input type="text" placeholder="To.." name="search">
-                    </div>
-                </div>
-                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 m-b-20" style="margin: 0px 45px;">
-                    <div class="search-container">
-                        <button type="submit"><i class="fa fa-search"></i></button>
+
+                <div class="col-xl-5 col-lg-2 col-md-2 col-sm-12 col-12 ">
+                    <div class="mdl-selectfield m-b-10">
+                        <i class="dropdown1 mdi mdi-menu-down"></i>
+                        <select class="selectpicker form-control" data-live-search="true" id="Origin" placeholder="To">
+                            <option value="">Destination Place</option>
+                        </select>
                     </div>
                 </div>
             </div>

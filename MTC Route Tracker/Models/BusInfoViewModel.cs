@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MTC_Route_Tracker.Mtc.Data.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,8 +9,7 @@ namespace MTC_Route_Tracker.Models
     public class BusInfoViewModel
     {
         public int Id { get; set; }
-        public bool BusSearch { get; set; }
-        public bool RouteSearch { get; set; }
+        public SearchTypeEnum SearchType { get; set; }
         public string From { get; set; }
         public string To { get; set; }
         public string BusSearchRoute { get; set; }
