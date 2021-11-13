@@ -8,14 +8,14 @@ namespace MTC_Route_Tracker.Mtc.Business.Services
 {
     public interface IInfoService
     {
-        BusInfoModel SearchFunctionality(BusInfoModel busInfoModel);
+        //List<BusInfoModel> SearchInfo(BusInfoModel busInfoModel);
 
     }
     public class InfoService
     {
-        public BusInfoModel SearchFunctionality(BusInfoModel busInfoModel)
-        {
-            return busInfoModel;
-        }
+        //public List<BusInfoModel> SearchInfo(BusInfoModel busInfoModel)
+        //{
+
+        //}
     }
 }
